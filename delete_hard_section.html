@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>Document</title>
-
+    <title>Hard</title>
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
@@ -18,57 +14,42 @@
 
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
 
 </head>
 
 <body id="page-top">
-
-    <!-- Page Wrapper -->
     <div id="wrapper">
-
-        <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
-            <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
                 <div>Office Management</div>
             </a>
-
-            <!-- Divider -->
             <hr class="sidebar-divider my-0">
-
-            <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Components</span>
-                </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.html">Buttons</a>
-                        <a class="collapse-item" href="cards.html">Cards</a>
-                    </div>
-                </div>
-            </li>
-
-            <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
@@ -124,8 +105,6 @@
 
              <!-- Nav Item - Management Documents -->
             
-
-
             <li class="nav-item">
                 <a class="nav-link" href="document.html">
                     <i class="fas fa-fw fa-file"></i>
@@ -137,16 +116,12 @@
                     <i class="fas fa-fw fa-hard-drive"></i>
                     <span>Hard Section</span></a>
             </li>
-            <!-- Divider -->
+
             <hr class="sidebar-divider d-none d-md-block">
 
-            <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
-
-           
-
         </ul>
         <!-- End of Sidebar -->
 
@@ -354,102 +329,37 @@
                                 </a>
                             </div>
                         </li>
-
                     </ul>
-
                 </nav>
-                <!-- End of Topbar -->
 
-                <!-- Begin Page Content -->
                 <div class="container-fluid">
-
-                    <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Quản lý tài liệu</h1>
-                        <a href="add_documen.html" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">
+                        <h1 class="h2 mb-3 text-gray-800" style="margin-left: 20px;">QUẢN LÍ PHẦN CỨNG</h1>
+                        <a href="add_hard_section.html" style="padding: 10px 23px;" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">
                             <i class="fas fa-plus fa-sm text-white-50"></i> 
-                           Add Document
+                           ADD
                         </a>
-                        
                     </div>
 
 
                     <div class="container">
                         <table class="table table-hover table-bordered" style="cursor: pointer;">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Name</th>
-                                    <th>Source</th>
-                                    <th>Numbers</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>
-                                        <a href="https://morfene.com/021.pdf" target="pdfFrame" class="text-decoration-none" style="color: black;"> Zero to One: Notes on Startups, or How to Build the Future</a>
-                                        <embed src="https://morfene.com/021.pdf" id="pdfFrame" width="100%" height="600px" style="display: none;"></embed>
-                                    </td>
-                                    <td>Peter Thiel</td>
-                                    <td>1</td>
-                                    <td>
-                                        <button class="btn btn-primary" style="font-size: x-small;">Sửa</button>
-                                        <button class="btn btn-danger" style="font-size: x-small;">Xóa</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail</td>
-                                    <td>Clayton M. Christensen</td>
-                                    <td>1</td>
-                                    <td>
-                                        <button class="btn btn-primary" style="font-size: x-small;">Sửa</button>
-                                        <button class="btn btn-danger" style="font-size: x-small;">Xóa</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Good to Great: Why Some Companies Make the Leap... and Others Don't</td>
-                                    <td>Jim Collins</td>
-                                    <td>1</td>
-                                    <td>
-                                        <button class="btn btn-primary" style="font-size: x-small;">Sửa</button>
-                                        <button class="btn btn-danger" style="font-size: x-small;">Xóa</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Thinking, Fast and Slow</td>
-                                    <td>Daniel Kahneman</td>
-                                    <td>1</td>
-                                    <td>
-                                        <button class="btn btn-primary" style="font-size: x-small;">Sửa</button>
-                                        <button class="btn btn-danger" style="font-size: x-small;">Xóa</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>The Lean Enterprise: How Corporations Can Innovate Like Startups</td>
-                                    <td>Trevor Owens and Obie Fernandez</td>
-                                    <td>1</td>
-                                    <td>
-                                        <button class="btn btn-primary" style="font-size: x-small;">Sửa</button>
-                                        <button class="btn btn-danger" style="font-size: x-small;">Xóa</button>
-                                    </td>
-                                </tr>
-                            </tbody>
+                          <thead class="thead-dark">
+                            <tr>
+                              <th>Tên thiết bị</th>
+                              <th>Mô tả</th>
+                              <th>SL</th>
+                              <th>Sở hữu chính</th>
+                              <th>Edit</th>
+                              <th>Delete</th>
+                            </tr>
+                          </thead>
+                          <tbody id="table-body"></tbody>
                         </table>
-                    </div>
-
+                      </div>
                 </div>
-                <!-- /.container-fluid -->
-
             </div>
-            <!-- End of Main Content -->
-
-            <!-- Footer -->
+       
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
@@ -457,38 +367,15 @@
                     </div>
                 </div>
             </footer>
-            <!-- End of Footer -->
-
         </div>
-        <!-- End of Content Wrapper -->
-
     </div>
-    <!-- End of Page Wrapper -->
-
-    <!-- Scroll to Top Button-->
+  
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
 
-    <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <script src="./js/hardSection_del.js"></script>
+
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -507,6 +394,22 @@
     <script src="js/demo/chart-area-demo.js"></script>
     <script src="js/demo/chart-pie-demo.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script>
+        // Lấy các query parameter từ URL
+        var params = new URLSearchParams(window.location.search);
+        var name = params.get("name");
+        var description = params.get("description");
+        var quantity = params.get("quantity");
+        var owner = params.get("owner");
+
+        // Hiển thị thông tin thiết bị lên giao diện
+        document.getElementById("name").textContent = name;
+        document.getElementById("description").textContent = description;
+        document.getElementById("quantity").textContent = quantity;
+        document.getElementById("owner").textContent = owner;
+
     </script>
 </body>
 
