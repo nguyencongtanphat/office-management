@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Charts</title>
+    <title>SB Admin 2 - Cards</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -68,6 +68,7 @@
                         <h6 class="collapse-header">Custom Components:</h6>
                         <a class="collapse-item" href="buttons.html">Buttons</a>
                         <a class="collapse-item" href="cards.html">Cards</a>
+                        <a class="collapse-item" href="news.html">News</a>
                     </div>
                 </div>
             </li>
@@ -121,7 +122,7 @@
             </li>
 
             <!-- Nav Item - Charts -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="charts.html">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Charts</span></a>
@@ -133,10 +134,10 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tables</span></a>
             </li>
-
+         
 <!--SƯƠNG-->
             <!-- Nav Item - News Menu -->
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="news.html">
                     <i class="fas fa-newspaper"></i>
                     <span>News</span>
@@ -153,7 +154,6 @@
 
         </ul>
         <!-- End of Sidebar -->
-
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
@@ -164,9 +164,11 @@
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                     <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
-                    </button>
+                    <form class="form-inline">
+                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </form>
 
                     <!-- Topbar Search -->
                     <form
@@ -181,9 +183,8 @@
                             </div>
                         </div>
                     </form>
-
-                    <!-- Topbar Navbar -->
-                    <ul class="navbar-nav ml-auto">
+                     <!-- Topbar Navbar -->
+                     <ul class="navbar-nav ml-auto">
 
                         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
                         <li class="nav-item dropdown no-arrow d-sm-none">
@@ -358,100 +359,152 @@
                                 </a>
                             </div>
                         </li>
-
                     </ul>
-
                 </nav>
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Charts</h1>
-                    <p class="mb-4">Chart.js is a third party plugin that is used to generate the charts in this theme.
-                        The charts below have been customized - for further customization options, please visit the <a
-                            target="_blank" href="https://www.chartjs.org/docs/latest/">official Chart.js
-                            documentation</a>.</p>
-
-                    <!-- Content Row -->
-                    <div class="row">
-
-                        <div class="col-xl-8 col-lg-7">
-
-                            <!-- Area Chart -->
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Area Chart</h6>
-                                </div>
-                                <div class="card-body">
-                                    <div class="chart-area">
-                                        <canvas id="myAreaChart"></canvas>
-                                    </div>
-                                    <hr>
-                                    Styling for the area chart can be found in the
-                                    <code>/js/demo/chart-area-demo.js</code> file.
-                                </div>
-                            </div>
-
-                            <!-- Bar Chart -->
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Bar Chart</h6>
-                                </div>
-                                <div class="card-body">
-                                    <div class="chart-bar">
-                                        <canvas id="myBarChart"></canvas>
-                                    </div>
-                                    <hr>
-                                    Styling for the bar chart can be found in the
-                                    <code>/js/demo/chart-bar-demo.js</code> file.
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Donut Chart -->
-                        <div class="col-xl-4 col-lg-5">
-                            <div class="card shadow mb-4">
-                                <!-- Card Header - Dropdown -->
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Donut Chart</h6>
-                                </div>
-                                <!-- Card Body -->
-                                <div class="card-body">
-                                    <div class="chart-pie pt-4">
-                                        <canvas id="myPieChart"></canvas>
-                                    </div>
-                                    <hr>
-                                    Styling for the donut chart can be found in the
-                                    <code>/js/demo/chart-pie-demo.js</code> file.
-                                </div>
-                            </div>
-                        </div>
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <h1 class="h3 mb-2 text-gray-800">News</h1>
                     </div>
+                    <div class="row">
+                        <ul class="list-content" style="list-style: none;">
+                            <li>
+                                <div class="col-lg-10" style="margin: auto;">
+                                    <!-- Default Card Example -->
+                                    <div class="card mb-4">
+                                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                            <span style="color: #4e73df!important; font-weight: bold;">
+                                                ANNOUNCEMENT OF THE 2ND QUARTER CONFERENCE
+                                            </span>
+                                            <span style="color:black!important; margin-left: auto; font-size: 14px; font-weight: lighter;">13/01/2023</span>
+                                        </div>
+                                        <div class="card-body" style="color: black;">
+                                        <div>
+                                            2nd Quarter Seminar: We are pleased to announce that the 2nd Quarter Seminar will be held on June 15th at ABC Hotel. 
+                                            This is an opportunity for us to share our industry knowledge and experience. The workshop will include lectures, 
+                                            discussion sessions and group activities. For more details and registration, please contact the Event Organizing Committee.
+                                        </div>
+                                        <div>
+                                            <br>
+                                                <img style="width: 80%;display: block; margin: auto; margin-bottom: 20px" src="https://michiganoptimists.org/wp-content/uploads/2021/11/2021-22-2Q-Conference-980x515.jpg">
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
 
+                            <li>
+                                <div class="col-lg-10" style="margin: auto;">
+                                    <!-- Default Card Example -->
+                                    <div class="card mb-4">
+                                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                            <span style="color: #4e73df!important; font-weight: bold;">
+                                                CELEBRATING 10 YEAR OF THE COMPANY' S ESTABLISHMENT
+                                            </span>
+                                            <span style="color:black!important; margin-left: auto; font-size: 14px; font-weight: lighter;">25/03/2023</span>
+                                        </div>
+                                        <div class="card-body" style="color: black;">
+                                            [Celebrating 10 years of the company's establishment, April 30, 2013 - April 30, 2023]
+                                            The founding day of XYZ company has become a special and proud day for us. On this day, we embarked on our entrepreneurial journey, building and growing a trusted organization. Establishing a company has given us not only a solid foundation to realize our dreams and aspirations, but also a united community where each member contributes to the success. shared.
+            
+                                            <br>Over the years, we have faced many challenges and overcome them together. From the discipline and dedication of the staff, to the wise leadership of the management, XYZ Company has become a model of professionalism, creativity and innovation in our industry.
+                                        </div>
+                                        <div>
+                                            <br>
+                                                <img style="width: 80%;display: block; margin: auto; margin-bottom: 20px;" src="https://th.bing.com/th/id/OIP.vyG1_Bvc3BGh2m0YObGk3AHaEc?pid=ImgDet&rs=1">
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-lg-10" style="margin: auto;">
+                                    <!-- Default Card Example -->
+                                    <div class="card mb-4">
+                                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between" >
+                                            <span style="color: #4e73df!important; font-weight: bold;">
+                                                HAPPY BIRTHDAY
+                                            </span>
+                                            <span style="color:black!important; margin-left: auto; font-size: 14px; font-weight: lighter;">20/02/2023</span>
+                                        </div>
+                                        <div class="card-body" style="color: black;">
+                                            We extend our warmest birthday wishes to [employee name] - a precious member of the XYZ family! This day marks an important milestone in your life and we want to accompany you in this joy and celebration.</br>
+
+                                            <br>On the occasion of your birthday, we would like to express our deep gratitude for your continuous contribution and efforts to XYZ company. Over the years, you have demonstrated your talent, professionalism and dedication to your work. Your contribution has not only brought success to yourself, but also contributed to our overall development.</br>
+
+                                            <br>We hope that this year's birthday brings you joy, happiness and success. Enjoy this special day with family, friends and loved ones. At the same time, remember that we are standing by your side, ready to support and encourage you every step of the way.
+                                        </div>
+                                        <div>
+                                            <br>
+                                                <img style="width: 80%; display: block; margin: auto;margin-bottom: 20px"  src="https://i.pinimg.com/originals/7a/3e/26/7a3e26afceb59afd39db693e776fa919.jpg">
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="col-lg-10" style="margin: auto;">
+                                    <!-- Default Card Example -->
+                                    <div class="card mb-4">
+                                            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                                <span style="color: #4e73df!important; font-weight: bold;">
+                                                    CONGRATULATIONS
+                                                </span>
+                                                <span style="color:black!important; margin-left: auto; font-size: 14px; font-weight: lighter;">20/02/2023</span>
+                                            </div>
+                                        <div class="card-body" style="color: black;">
+                                            It is with great pleasure that we inform all employees of a special piece of good news. Today, we congratulate [employee name] on gaining an important new position in XYZ company!
+
+                                            <br>With full talent, dedication and unremitting efforts, [employee name] has proven his ability and value in his work. This new position is not only a personal promotion, but also a recognition of merit and contribution of [employee name] in the development of the company.</br>
+
+                                            <br>We believe that [employee name] will continue to bring innovation, creativity and unremitting efforts in our new position. Your professionalism, leadership and teamwork will continue to be the driving force for us to rise together and achieve new successes.</br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                                <img style="width: 80%; display: block; margin: auto;margin-bottom: 20px"  src="https://enhancedwellness.com/wp-content/uploads/2019/04/Congratulations.jpg">
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="col-lg-10" style="margin: auto;">
+                                    <!-- Default Card Example -->
+                                    <div class="card mb-4">
+                                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between" >
+                                            <span style="color: #4e73df!important; font-weight: bold;">CONGRATULATIONS</span> 
+                                            <span style="color:black!important; margin-left: auto; font-size: 14px; font-weight: lighter;">03/05/2023</span>
+                                        </div>
+                                        <div class="card-body" style="color: black;">
+                                            We are excited and proud to announce that the time has come for us to honor a special member of our team. Today, we want to congratulate and congratulate [employee name] on receiving a well-deserved reward!</br>
+
+                                            <br>With unwavering commitment and dedication, [employee name] has become an inspiration to the entire team. Not only achieving personal goals, but [employee's name] also makes an important contribution to the success and development of XYZ company.
+                                        <div>
+                                            <br>
+                                                <img style="width: 80%; display: block; margin: auto;margin-bottom: 20px"  src="https://invietlong.com/data/images/tin-tuc/Giay-Chung-nhan-SAPA-CHARM---15032019---02.jpg">
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                        <a href="add_new_post.html" class="btn btn-primary btn-icon-split" style="margin-bottom: 24px !important; display: block; margin: auto;">
+                            <span class="icon text-white-50">
+                                <i class="fas fa-plus-circle"></i>
+                            </span>
+                            <span class="text">Add New Post</span>
+                        </a>
+                    </div>
                 </div>
                 <!-- /.container-fluid -->
-
             </div>
-            <!-- End of Main Content -->
-
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
-
         </div>
-        <!-- End of Content Wrapper -->
-
-    </div>
-    <!-- End of Page Wrapper -->
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
@@ -487,14 +540,6 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
-
-    <!-- Page level plugins -->
-    <script src="vendor/chart.js/Chart.min.js"></script>
-
-    <!-- Page level custom scripts -->
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
-    <script src="js/demo/chart-bar-demo.js"></script>
 
 </body>
 
